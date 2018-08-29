@@ -21,6 +21,25 @@ const palChecker = (word) => {
         }
 };
 
-palChecker('mom');;
+palChecker('mom');
 palChecker('mokeybutt');
-palChecker('racecar')
+palChecker('racecar');
+
+let animls = ['spiders', 'snakes', 'gophers', 'big spiders'];
+
+const lastItem = animls.pop();
+const firstItem = animls.shift();
+animls.push('bat');
+animls.unshift('baby hippo');
+console.log('animals', animls);
+
+
+
+
+// what is your starting value
+// what is your stopping value
+// how are you incrementing 
+
+for(let i = 0; i < animls.length; i++){
+    console.log(animals[i]);
+}
